@@ -1,0 +1,23 @@
+.stepper-container {
+  text-align: center;
+}
+
+.horizontal-stepper {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Add custom styles for the level appearance */
+.horizontal-stepper .k-stepper-item {
+  flex: 1;
+  position: relative;
+}
+
+.horizontal-stepper .k-stepper-item .k-stepper-icon {
+  font-size: 24px; /* Adjust the icon size */
+}
+
+.horizontal-stepper .k-stepper-item .k-stepper-label {
+  font-size: 16px; /* Adjust the label size */
+}
+  

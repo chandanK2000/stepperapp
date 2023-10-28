@@ -1,0 +1,49 @@
+.stepper-container {
+  max-width: 600px;
+  margin: 40px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.step-indicator {
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.step span {
+  font-size: 14px;
+  text-align: center;
+}
+
+.step.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+
+.step-label.bold {
+  font-weight: bold;
+}
+
+.line.active {
+  background-color: #007bff;
+}
