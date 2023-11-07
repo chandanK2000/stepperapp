@@ -1,0 +1,38 @@
+body {
+  background-image: url("../public/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* opacity: 0.8; */
+}
+
+.registerbutton {
+  border-radius: 20px;
+  margin-top: 5px;
+  background-image: url("../public/background.jpg");
+  border: none;
+  outline: none;
+  padding: 6px 8px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+.registerbutton:hover {
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cards {
+  box-shadow: 2px 4px 6px rgba(0, 0, 0);
+  opacity: 0.8;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+   background-image: url('../public/textback.jpg');
+}
+
+label {
+  color: blue;
+}
