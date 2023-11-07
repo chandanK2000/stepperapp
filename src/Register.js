@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import './Register.css';
-import { Link } from 'react-router-dom';
 function RegisterForm() {
-  const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -56,7 +54,6 @@ function RegisterForm() {
     e.preventDefault();
 
     if (validateForm()) {
-      setIsButtonDisabled(true);
       toast.success("Form Submitted Successfully");
       setFormData({
         name: '',
