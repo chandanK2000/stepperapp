@@ -1,6 +1,8 @@
 import './App.css';
+import Booked from './Booked';
 // import Cards from './Cards';
-import Chosse from './Chosse';
+// import Chosse from './Chosse';
+// import Familypackages from './Familypackages';
 // import Footer from './Footer';
 // import RegisterForm from './Register';
 /* import { ToastContainer } from 'react-toastify';
@@ -16,9 +18,11 @@ function App() {
       <Stepper2 />
       <ToastContainer /> */}
       {/* <RegisterForm/> */}
-      <Chosse/>
+      {/* <Chosse/> */}
       {/* <Cards/> */}
       {/* <Footer/> */}
+      {/* <Familypackages/> */}
+      <Booked/>
    </>
   );
 }
