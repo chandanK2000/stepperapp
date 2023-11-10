@@ -3,9 +3,9 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
+
 .chooseSection {
   width: 100%;
-  height: 50vh;
   padding: 40px 20px;
   background: linear-gradient(223.23deg, #fff -39.74%, #dbf5f9 94.44%);
   text-align: center;
@@ -14,8 +14,8 @@ body {
 .choose {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  margin: 0px 112px;
 }
 
 .chooseItem {
@@ -24,5 +24,47 @@ body {
   flex: 1 0 calc(33.33% - 20px);
   max-width: calc(33.33% - 20px);
   display: flex;
-    justify-content: flex-start;
+  margin: 10px !important;
+}
+
+.circles {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: #000;
+  margin-right: 10px;
+  background: linear-gradient(223.23deg, #fff -39.74%, #dbf5f9 94.44%);
+  box-shadow: 0px 1px 1px black;
+}
+
+.facilityText {
+  height: 40%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2e2e2e;
+  width: 136px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .choose {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .chooseItem {
+    flex: 1 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    width: 100%;
+  }
+  .circles {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
 }

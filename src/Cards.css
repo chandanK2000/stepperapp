@@ -51,16 +51,16 @@ body {
 }
 .card {
   display: flex;
-
   margin-bottom: 10px;
-  max-width: 330px;
+  max-width: 300px;
   padding: 18px 18px;
+  /* border: 1px solid gray; */
   background: linear-gradient(
     223.23deg,
     hsla(0, 0%, 100%, 0.5) -39.74%,
     rgba(219, 245, 249, 0.5) 94.44%
   ) !important;
-  min-height: 240px;
+  min-height: 260px;
   border: none !important;
 }
 
@@ -115,15 +115,9 @@ body {
   color: white;
 }
 
-
-
-.slick-dots {
-  display: none;
- 
-}
 @media (max-width: 768px) {
   .main_card_section {
-    margin-bottom: 300px !important;
+    margin-bottom: 408px  !important;
   }
   .steps {
     display: flex;
@@ -134,7 +128,6 @@ body {
   .stepsSection {
     display: flex;
     flex-direction: row;
-    width: 100%;
   }
   .circles {
     width: 60px;
@@ -143,8 +136,8 @@ body {
     border-radius: 50%;
   }
   .main_card_section h3 {
-    font-size: 19px;
-  }
+font-size: 19px;
+}
   .contents {
     font-size: 15px;
     font-weight: 400;
@@ -162,33 +155,6 @@ body {
     font-size: 15px;
   }
 
-/* .slick-dots {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-  } */
-
-  /* .slick-dots li {
-    margin: 0 5px;
-  } */
-
-  /* .slick-dots button {
-    font-size: 16px;
-    line-height: 12px;
-    border: 2px solid #fff; 
-    border-radius: 50%;
-    /* background: transparent;  */
-    color: #fff; 
-  } */
-/* 
-  .slick-dots .slick-active button {
-    background: #fff;
-    color: #000; 
-    font-size: 20px;
-  } */
   .card {
     display: flex;
     width: 100%;
@@ -215,4 +181,4 @@ body {
     display: flex;
     justify-content: space-around;
   }
-
+}

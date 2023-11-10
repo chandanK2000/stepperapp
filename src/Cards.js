@@ -37,8 +37,8 @@ const Cards = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         swipeToSlide: true, 
-        dots: true,
-        dotsClass: 'slick-dots custom-dots',
+        // dots: true,
+        // dotsClass: 'slick-dots custom-dots',
 
       },
     },

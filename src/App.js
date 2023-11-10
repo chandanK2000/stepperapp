@@ -1,7 +1,7 @@
 import './App.css';
-import Cards from './Cards';
+// import Cards from './Cards';
 import Chosse from './Chosse';
-import Footer from './Footer';
+// import Footer from './Footer';
 // import RegisterForm from './Register';
 /* import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -17,8 +17,8 @@ function App() {
       <ToastContainer /> */}
       {/* <RegisterForm/> */}
       <Chosse/>
-      <Cards/>
-      <Footer/>
+      {/* <Cards/> */}
+      {/* <Footer/> */}
    </>
   );
 }
