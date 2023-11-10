@@ -30,7 +30,9 @@ body {
 .form-control:focus {
     outline: none !important;
     box-shadow: none !important;
-   background-image: url('../public/textback.jpg');
+   background-image: url('../public/background.jpg');
+   opacity: 0.8;
+   color: black;
 }
 
 label {

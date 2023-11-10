@@ -1,5 +1,8 @@
 import './App.css';
-import RegisterForm from './Register';
+import Cards from './Cards';
+import Chosse from './Chosse';
+import Footer from './Footer';
+// import RegisterForm from './Register';
 /* import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import CustomStepper from './Stepper';
@@ -12,7 +15,10 @@ function App() {
     {/*   <CustomStepper />
       <Stepper2 />
       <ToastContainer /> */}
-      <RegisterForm/>
+      {/* <RegisterForm/> */}
+      <Chosse/>
+      <Cards/>
+      <Footer/>
    </>
   );
 }
